@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحة الفيديو</title>
+    <style>
+        body {
+            font-family: 'Amiri', serif;
+            text-align: center;
+            background: linear-gradient(to bottom, #ffe6f2, #ffb3d9);
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        video {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        button {
+            background-color: #ff69b4;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #ff1493;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>my butyy girl</h1>
+        <p>nadjet my love happy new year </p>
+       <h1>video</h1>  
+        <video controls>
+            <source src="video/hayder.mp4" type="video/mp4">
+        </video>
+        
+        <!-- زر للعودة إلى الصفحة الرئيسية -->
+        <button onclick="goBack()">العودة إلى الصفحة الرئيسية</button>
+    </div>
+    
+    <script>
+        function goBack() {
+            window.location.href = "index.html";
+        }
+    </script>
+</body>
+</html>
